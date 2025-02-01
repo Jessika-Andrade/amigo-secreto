@@ -23,18 +23,7 @@ input.value = "";
 
 function atualizarLista() {
     let ul = document.getElementById("listaAmigos"); 
-    ul.innerHTML = ""; 
-
-    listaAmigos.forEach(nome => { 
-        let li = document.createElement("li"); 
-        li.textContent = nome; 
-        ul.appendChild(li); 
-    });
-}
-
-function sortearAmigo() {
-    if (listaAmigos.length === 0) { 
-        alert("Adicione pelo menos um amigo antes de sortear!");
+    ul.innerHTML = "";
         return;
     }
 
