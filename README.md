@@ -1,2 +1,2 @@
 # amigo-secreto
-Atividade da Alura com JS usando Lógica de Programção para criar um jogo.
+Atividade da Alura com JS usando Lógica de Programação para criar um jogo.
